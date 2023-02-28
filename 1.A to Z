@@ -1,0 +1,14 @@
+//A to Z 
+#include<stdio.h>
+main()
+{
+int i,n;
+for(n=1;n<=90;n++)
+{
+  for(i=65;i<=n;i++)
+  {
+    printf("%c ",i);
+}
+printf("\n");
+}
+}
