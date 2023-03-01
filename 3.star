@@ -1,14 +1,19 @@
 #include<stdio.h>
-int main()
+main()
 {
-int i=1,j;
-do{
-j=1;
-do{
-Printf("*");
-j++;
-Printf("\n");
-}
-While(i=5);
-return 0;
+	 int n,i,j;
+	 scanf("%d",&n);
+	 for(i=1;i<=n;i++)
+	 {
+	 	for(j=1;j<=n-i;j++)
+	 	{
+	 	printf(" ");
+    	}
+    	while(j<=n)
+    	{
+    		printf("* ");
+    		j++;
+		}
+		printf("\n");
+	 }
 }
